@@ -1,0 +1,39 @@
+.Container{
+    margin-top: 1%;
+}
+#image{
+    width: 60%;
+    height: auto;
+    object-fit:cover; 
+    object-position: 0px 10%;
+    margin-left: 10%;
+    margin-right: auto;
+    
+}
+.nameCat *{
+    margin-left: 0%;
+}
+.nameCat h5{
+    margin-left: 45%;
+}
+.nameCat h3{
+    margin-left: calc(45% + 15px);
+}
+.description{
+    margin: 5%;
+}
+
+.stats{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10%;
+
+}
+.list{
+    display: list-item;
+}
+.list *{
+    padding: 1%;
+    padding-left: 15%;
+}

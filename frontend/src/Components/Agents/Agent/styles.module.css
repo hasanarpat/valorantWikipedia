@@ -1,0 +1,58 @@
+body{
+    color:#fff;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 320px;
+    height: 680px;
+    padding-right: 5px;
+    padding-bottom: 22px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+  }
+.card img{
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  display: block;
+  width: 320px;
+  height: 300px;
+  margin-right: 140px;
+}
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .cardContainer {
+    text-align: center;
+    padding-left: 2px;
+    margin-bottom: 0;
+  }
+  p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  h4{
+    margin-bottom: 0px;
+  }
+  .seeButton{
+    margin-top: 10px;
+    border-radius: 5%;
+    border: none;
+    width: 100px;
+    height: 25px;
+    background-color: #fce9e0;
+  }
+  .seeButton:hover{
+    background-color: #fa4454;
+    color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.82);
+
+  }

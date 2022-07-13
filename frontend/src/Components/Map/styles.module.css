@@ -1,0 +1,30 @@
+#mapImg{
+    width: 70%;
+    height: auto;
+    margin-left: 8%;
+}
+.header{
+    align-items: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.center :where(h2){
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+.center :where(h4){
+    margin-bottom: 10px;
+}
+.infos{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 10px;
+    padding: 1%;
+}
+.regionList *{
+    padding: 2px;
+}
